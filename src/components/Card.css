@@ -1,0 +1,47 @@
+.card-box {
+    width: 300px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 8px #222;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(30px);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-close {
+    color: white;
+    background-color: #FF2222;
+    border: none;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.div-butt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.info-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    padding: 0;
+    list-style: none;
+}
+
+.icono {
+    object-fit:scale-down;
+    height: 80px;
+}

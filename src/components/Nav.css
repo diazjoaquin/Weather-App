@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.span {
+    background-color: #357EF0;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.span:hover{
+    background-color:#37B6FA;
+}
+
